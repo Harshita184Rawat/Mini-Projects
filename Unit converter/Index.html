@@ -1,0 +1,53 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Unit Converter</title>
+    <script src="converter.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+	<div class="container">
+		<h1>Unit Converter</h1>
+		<form>
+			<label for="unit_from">Convert from:</label>
+			<select id="unit_from">
+				<option value="inches">Inches</option>
+				<option value="feet">Feet</option>
+				<option value="yards">Yards</option>
+				<option value="centimeters">Centimeters</option>
+				<option value="meters">Meters</option>
+				<option value="fahrenheit">Fahrenheit</option>
+				<option value="celsius">Celsius</option>
+				<option value="kelvin">Kelvin</option>
+				<option value="pounds">Pounds</option>
+				<option value="kilograms">Kilograms</option>
+				<option value="ounces">Ounces</option>
+				<option value="liters">Liters</option>
+				<option value="gallons">Gallons</option>
+			</select>
+			<label for="value">Value:</label>
+			<input type="number" id="value">
+			<label for="unit_to">Convert to:</label>
+			<select id="unit_to">
+				<option value="inches">Inches</option>
+				<option value="feet">Feet</option>
+				<option value="yards">Yards</option>
+				<option value="centimeters">Centimeters</option>
+				<option value="meters">Meters</option>
+				<option value="fahrenheit">Fahrenheit</option>
+				<option value="celsius">Celsius</option>
+				<option value="kelvin">Kelvin</option>
+				<option value="pounds">Pounds</option>
+				<option value="kilograms">Kilograms</option>
+				<option value="ounces">Ounces</option>
+				<option value="liters">Liters</option>
+				<option value="gallons">Gallons</option>
+			</select>
+			<button type="button" onclick="convert()">Convert</button>
+		</form>
+		<div id="result"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
